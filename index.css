@@ -1,0 +1,584 @@
+*{
+    font-family: sans-serif;
+}
+body{
+  background: #fff; 
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#000);
+    border-radius: 8px;
+    transition: .5s;
+    box-shadow: 1px 5px 10px rgba(255, 25, 255, 0.3);
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent,#ff3355);
+}
+/*-----1st content --- text ----  img---- start---------*/
+.content-1{
+    position: absolute;
+    top: 6%;
+    width: 99%;
+    height: 500px;
+    box-sizing: content-box;
+    
+}
+span{
+    color: crimson;
+}
+.content-1 .small-circle-1{
+    position: absolute;
+    top: 16%;
+    left: 2%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black ;
+}
+.content-1 .small-circle-2{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: crimson;
+}
+.content-1 .content-1-mein-text{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    border-left:4px solid crimson;
+    padding-left: .5rem; 
+    font-size: x-large;   
+    transition: .3s ease-in;
+}
+.content-1 .content-1-p-text{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 45%;
+    color: gray;
+}
+.content-1 .content-1-p-text a{
+    position: absolute;
+    bottom: -30%;
+    text-decoration: none;
+    color: #fff;
+    background: crimson;
+    padding: 5px 10px;
+    border:none;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius:16px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+.content-1 .content-1-last-text{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: .8rem;
+    color: gray;
+}
+/*---background---cricle--css---start--here---*/
+.content-1 .cricle-1{
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(150deg,#d9b3ff,#80ffff);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.content-1 .cricle-2{
+    position: absolute;
+    right: 12.5%;
+    top: 57.5%;
+    width: 150px;
+    height: 150px;
+    background:linear-gradient(150deg,#d9b3ff,#80ffff);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.content-1 .cricle-3{
+    position: absolute;
+    right:25%;
+    top:76.5%;
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(150deg,#d9b3ff,#80ffff);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.content-1 img{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    right:14%;
+    top: 28%;
+}
+/*---background---cricle--css---end--here---*/
+/*-----1st content --- text ----  img---- end---------*/
+/*-----2nd content --- text ----  card---- start----here-----*/
+.content-2{
+    position: absolute;
+    top: 84.8%;
+    width: 99%;
+    height: 500px;
+    box-sizing: content-box;
+}
+.content-2 .content-2-text {
+    text-align:center;
+    font-size: 1.5rem;
+}
+/*--content-2--background---cricle--style--start--*/
+/*cricle-1*/
+.content-2 .back-circle-1{
+    position: absolute;
+    background:linear-gradient(150deg,#d9b3ff,#80ffff);
+    top: 10%;
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: .5;
+}
+.content-2 .back-smill-circle{
+    position: absolute;
+    background:#fff;
+    top: 18%;
+    left: 15%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*cricle-2*/
+.content-2 .back-circle-2{
+    position: absolute;
+    background:linear-gradient(150deg,#d9b3ff,#80ffff);
+    top: 58%;
+    left: 60%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: .5;
+}
+.content-2 .back-smill-circle-2{
+    position: absolute;
+    background:#fff;
+    top: 25%;
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/*cricle-3*/
+.content-2 .back-circle-3{
+    position: absolute;
+    background:linear-gradient(150deg,#d9b3ff,#80ffff);
+    top: 15%;
+    left:90%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: .5;
+}
+.content-2 .back-smill-circle-3{
+    position: absolute;
+    background:#fff;
+    top: 25%;
+    left: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/*--content-2--background---cricle--style--end--*/
+/*1st-card-start*/
+.content-2 .content-card-1{
+    position: absolute;
+    left: 10%;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(150deg,#e6ccff,#cce6ff);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 16px;
+}
+.content-2 .content-card-1 h4{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.content-2 .content-card-1 img{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+}
+.content-2 .content-card-1 p{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    font-size: .9rem;
+    color: #000;
+}
+/*1st-card-end*/
+/*2nd-card-start*/
+.content-2 .content-card-2{
+    position: absolute;
+    left: 40%;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 16px;
+}
+.content-2 .content-card-2 h4{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.content-2 .content-card-2 img{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+}
+.content-2 .content-card-2 p{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    font-size: .9rem;
+    color: #000;
+}
+/*2nd-card-end*/
+/*3nd-card-start*/
+.content-2 .content-card-3{
+    position: absolute;
+    left: 70%;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 16px;
+}
+.content-2 .content-card-3 h4{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.content-2 .content-card-3 img{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+}
+.content-2 .content-card-3 p{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    font-size: .9rem;
+    color: #000;
+}
+/*3nd-card-end*/
+/*-----2nd content --- text ----  card---- end----here-----*/
+/*-----3nd content --- text ----  card---- start----here-----*/
+.content-3{
+    position: absolute;
+    top: 163%;
+    width: 99%;
+    height: 900px;
+}
+/*--back-circle--style--start*/
+/*--back-circle--style--1--start*/
+.content-3 .content-3-main-1 .back-circle-1{
+    position: absolute;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    top: 20%;
+    left: 6%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.content-3 .content-3-main-1 .back-circle-1 .smill-circle-1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius:50%
+}
+/*--back-circle--style--1--end*/
+/*--back-circle--style--2--start*/
+.content-3 .content-3-main-1 .back-circle-2{
+    position: absolute;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    top: 72%;
+    left: 90%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.content-3 .content-3-main-1 .back-circle-2 .smill-circle-2{
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius:50%
+}
+/*--back-circle--style--2--end*/
+
+/*--back-box--style--1--start*/
+.content-3 .content-3-main-1 .back-box-1{
+    position: absolute;
+    top: -2%;
+    left: 32%;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+}
+/*--back-box--style--1--end*/
+/*--back-box--style--2--start*/
+.content-3 .content-3-main-1 .back-box-2{
+    position: absolute;
+    top: 48%;
+    left: 68%;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+}
+/*--back-box--style--2--end*/
+/*--back-box--style--3--start*/
+.content-3 .content-3-main-1 .back-box-3{
+    position: absolute;
+    top: 98%;
+    left: 4%;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    width: 50px;
+    height: 100px;
+    border-radius: 16px;
+}
+/*--back-box--style--3--end*/
+/*--back-box--style--4--start*/
+.content-3 .content-3-main-1 .back-box-4{
+    position: absolute;
+    top: 135%;
+    left: 4%;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    width: 100px;
+    height: 50px;
+    border-radius: 16px;
+}
+/*--back-box--style--4--end*/
+/*--back-box--style--5--start*/
+.content-3 .content-3-main-1 .back-box-5{
+    position: absolute;
+    top: 98%;
+    left: 23%;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    width: 100px;
+    height: 50px;
+    border-radius: 16px;
+}
+/*--back-box--style--5--end*/
+.content-3 .content-3-main-1 .back-box-6{
+    position: absolute;
+    top: 130%;
+    left: 28%;
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    width: 50px;
+    height: 100px;
+    border-radius: 16px;
+}
+/*--back-box--style--6--end*/
+/*--back-circle--style--end*/
+/*1st--img-card--style---start*/
+.content-3 .img-box-1{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    margin-left: 10%;
+}
+.content-3 .content-3-main-1 .img-box-1 img{
+    position: absolute;
+    top: 0%;
+    left: 1px;
+    width: 270px;
+    height: 270px;
+}
+.content-3 .content-3-main-1 h1{
+    position: absolute;
+    top: 5px;
+    right: 30%;
+    font-size: 2rem;
+}
+.content-3 .content-3-main-1 p{
+    position: absolute;
+    top: 9%;
+    left: 38%;
+    color: gray;
+}
+
+.content-3 .content-3-main-1 a{
+    position: absolute;
+    top: 22%;
+    right: 45%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background: crimson;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+/*1st--img-card--style---end*/
+/*2nd--img-card--style---start*/
+.content-3 .img-box-2{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    position: absolute;
+    right: 5%;
+    top: 50%;  
+}
+.content-3 .img-box-2 img{
+    position: absolute;
+    top: 0%;
+    left: 1px;
+    width: 250px;
+    height: 250px;
+}
+.content-3 .content-3-main-2 h1{
+    position: absolute;
+    top: 50%;
+    left:5%;
+    font-size: 2rem;
+    color:#000;
+}
+.content-3 .content-3-main-2 p{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 600px;   
+}
+.content-3 .content-3-main-2 a{
+    position: absolute;
+    top: 75%;
+    left:5%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background: crimson;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+/*2ndt--img-card--end---start*/
+/*3nd--img-card--style---start*/
+.content-3 .img-box-3{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 250px;
+    height: 350px;
+    border-radius: 16px;
+    position: absolute;
+    left: 6%;
+    top: 100%;  
+}
+.content-3 .img-box-3 img{
+    position: absolute;
+    top: 1%;
+    left: -10px;
+    width: 300px;
+    height: 350px;
+}
+.content-3 .content-4-main-3 h1{
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    font-size: 2rem;
+    color:#000;
+}.content-3 .content-4-main-3 p{
+    position: absolute;
+    top: 110%;
+    left: 35%;
+    width: 600px;   
+}
+.content-3 .content-4-main-3 a{
+    position: absolute;
+    top: 125%;
+    left: 35%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background: crimson;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+/*3nd--img-card--style---end*/
+/*-----3nd content --- text ----  card---- start----here-----*/
+/*-----4nd content --- text ----  color---- start----here-----*/
+.content-4{
+    background: linear-gradient(150deg,#cce6ff,#e6ccff);
+    position: absolute;
+    width: 99%;
+    height: 200px;
+    top:380%;
+}
+/*4nd--img-card--style---start*/
+.content-4 .content-main h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.content-4 .content-main p{
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+.content-4 .content-main img{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 80%;
+    left:0;
+}
+/*4nd--img-card--style---end*/
+/*-----4nd content --- text ----  color---- end----here-----*/
